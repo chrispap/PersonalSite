@@ -57,6 +57,7 @@
                 <div id="menu">
                     <ul id="menu">
                         <li <?php if ($this->p1=="home" || $this->p1=="") echo 'class="current_page_item"'; ?>><a href="<?php echo $this->PATH; ?>home"> Homepage </a></li>
+						<li <?php if ($this->p1 =="github"){echo 'class="current_page_item"';} ?>><a href="<?php echo $this->PATH ?>github" > GitHub </a></li>
                         <li <?php if ($this->p1 =="java"){echo 'class="current_page_item"';} ?>> <a href="<?php echo $this->PATH ?>java" > Java </a></li>
                         <li <?php if ($this->p1 =="android"){echo 'class="current_page_item"';} ?>><a href="<?php echo $this->PATH ?>android" > Android </a></li>
                         <li <?php if ($this->p1 =="links"){echo 'class="current_page_item"';} ?>><a href="<?php echo $this->PATH ?>links" > My Links </a></li>
