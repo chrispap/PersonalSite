@@ -9,4 +9,9 @@ return array (
         'user' => "",
         'password' => "",
         ),
+	'paths' => array (
+		'public' => '',
+		'image' => '',
+		),
+	
     );

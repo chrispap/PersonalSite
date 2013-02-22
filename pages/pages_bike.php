@@ -4,7 +4,7 @@
 	<div class="entry">
 		<div class="title"> &nbsp  </div>
 		<br>
-        <img src="<?php echo $this->PATH; ?>public/images/bike.jpg"  style="margin-left:auto;margin-right:auto;" >
+        <img src="<?php echo $this->IMAGE_PATH; ?>bike.jpg"  style="margin-left:auto;margin-right:auto;" >
 		<br>
 	</div>
 

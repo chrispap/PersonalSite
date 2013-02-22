@@ -51,7 +51,7 @@ $sql = "SELECT * from genre ORDER BY genre.genre ASC;";
 
 <div class="entry">
 
-	<form method="POST" action="./?case=insert" encoding="utf-8" >
+	<form method="POST" action="<?php echo $this->FULL_PATH; ?>?case=insert" encoding="utf-8" >
 		<fieldset>
 		<legend> Νέα ταινία: </legend>
 

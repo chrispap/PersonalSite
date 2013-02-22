@@ -198,34 +198,6 @@ color: #FF0000;
     background-color: #FFFFFF;
 }
 
-.post {
-    padding-bottom: 15px;
-    line-height:200%;
-}
-
-.post h1 {
-    font-weight: normal;
-}
-
-.entry iframe {
-    float:right;
-}
-
-.entry img {
-    width: auto;
-    max-height: 220px;
-
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-    -webkit-transition: all 1s;
-    transition: all 1s;
-}
-
-.entry img.expanded {
-    max-height: none;
-}
-
 .title {
     margin: 0;
     padding: 10px 0 4px 20px;
@@ -247,19 +219,39 @@ color: #FF0000;
     margin: -10px 20px 20px 20px;
 }
 
+.entry {
+    background-color: #F3F3FF;
+	border: 1px solid ;
+	min-height: 300px;
+	text-align:left;
+    padding: 0 20px;
+	margin: 20px;
+}
+
+.entry iframe {
+    float:right;
+}
+
+.entry img {
+    width: auto;
+    max-height: 150px;
+}
+
+.entry img.expanded {
+    max-height: none;
+}
+
 .tag {
     padding: 0 15px;
 }
 
-.entry {
-    padding: 0 20px;
-    text-align:left;
-}
-
 .links {
-    padding: 4px 0px;
-    text-align: right;
-    font-weight: bold;
+	float: right; 
+	clear: right;
+	margin: 4px;
+	padding: 4px 0px;
+	text-align: right;
+	font-weight: bold;
 }
 
 .links a {
@@ -269,6 +261,12 @@ color: #FF0000;
 .links a:hover {
 }
 
+.links ul {
+	list-style-type: none;
+}
+
+	
+/* Notepad (my links) */
 .plaisio {
     background-color:#000000;
 }
@@ -313,6 +311,7 @@ color: #FF0000;
     font-weight: bold;
     float: right;
 }
+
 .notepad  form {
     background-color:#BABABA;
     padding: 6px;
@@ -390,6 +389,7 @@ color: #FF0000;
 
 .sidebar a {
 }
+
 
 /* Search */
 #searchform {
