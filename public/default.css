@@ -160,7 +160,7 @@ padding-top:6px;
 padding-left:17px;
 }
 
-#menu .current_page_item a {
+#menu .curr_page a {
 color: #FF0000;
 }
 
@@ -211,6 +211,21 @@ color: #FF0000;
     float:right;
 }
 
+.entry img {
+    width: auto;
+    max-height: 220px;
+
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.entry img.expanded {
+    max-height: none;
+}
+
 .title {
     margin: 0;
     padding: 10px 0 4px 20px;
@@ -259,7 +274,7 @@ color: #FF0000;
 }
 
 .notepad {
-	max-width: 500px;
+    max-width: 500px;
     padding: 65px 100px 10px 70px;
     margin: 0px 0px;
     background-image: url(images/notepad.png);
@@ -359,7 +374,7 @@ color: #FF0000;
     border-bottom: 1px #BBBBBB dashed;
 }
 
-.current_page_item {
+.curr_page {
 color: #FF0000;
 }
 
@@ -446,88 +461,88 @@ color: #FF0000;
 
 /* MOVIES SECTION STYLING */
 .movies {
-	margin: 0px 0px;
-	padding: 10px 100px 10px 100px;
+    margin: 0px 0px;
+    padding: 10px 100px 10px 100px;
 }
 
 .movies  .sortKey{
-	padding: 1px;
-	margin-left: -90px;
-	font-weight: bold;
+    padding: 1px;
+    margin-left: -90px;
+    font-weight: bold;
         font-size: 1.4em;
-	color: #000000;
+    color: #000000;
 }
 
 .movies ul {
-	list-style-type:none;
-	padding:0px;
-	margin-bottom: 3px;
-	margin-top: 3px;
+    list-style-type:none;
+    padding:0px;
+    margin-bottom: 3px;
+    margin-top: 3px;
 }
 
 .movies li {
-	/*font-size:1.1em;*/
-	background-color:#FFFFFF;
-	border: 1px solid #000000;
-	padding: 5px;
-	margin-bottom: 5px;
-	margin-left: 0px;
-	margin-right: auto;
-	font-weight: bold;
-	/*width: 700px;*/
+    /*font-size:1.1em;*/
+    background-color:#FFFFFF;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: auto;
+    font-weight: bold;
+    /*width: 700px;*/
 }
 
 .movies li:hover {
-	background-color:#DDDDEE;
+    background-color:#DDDDEE;
 }
 
 .movies li > .deleteLink {
-	color: #FF0000;
-	min-width: 15px;
-	display: inline-block; 
-	text-align:center;
-	font-weight: bold;
-	float: right;
+    color: #FF0000;
+    min-width: 15px;
+    display: inline-block;
+    text-align:center;
+    font-weight: bold;
+    float: right;
 }
 .movies > form {
-	background-color:#BABABA;
-	padding: 6px;
-	margin-bottom: 15px;
-	font-size: 0.85em;
+    background-color:#BABABA;
+    padding: 6px;
+    margin-bottom: 15px;
+    font-size: 0.85em;
 }
 
 .movies > form > .inputTextfield {
-	background-color: #F5F5F5;
-	border: 1px solid; 
-	margin: 0px;
-	width: 42%;
-	font-size: inherit;
+    background-color: #F5F5F5;
+    border: 1px solid;
+    margin: 0px;
+    width: 42%;
+    font-size: inherit;
 }
 
 .movies > form > #button {
-	background-color: #F0F0F0;
-	color: #000000;
-	width: 10%;
-	border: 1px solid;
-	margin: 0px;
-	float: right;
-	font-size: inherit;
+    background-color: #F0F0F0;
+    color: #000000;
+    width: 10%;
+    border: 1px solid;
+    margin: 0px;
+    float: right;
+    font-size: inherit;
 }
 
 .mov_title{
-	color: #000000;
+    color: #000000;
 }
 
 .mov_year{
-	float: right;
-	margin-right: 5px;
-	font-weight:normal;
+    float: right;
+    margin-right: 5px;
+    font-weight:normal;
 }
 
 .mov_actorList{
         padding-left: 10px;
         color: #000000;
         font-weight:normal;
-	font-size: 0.9em;
+    font-size: 0.9em;
 }
 

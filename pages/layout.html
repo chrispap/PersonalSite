@@ -56,13 +56,11 @@
                 </div>
                 <div id="menu">
                     <ul id="menu">
-                        <li <?php if ($this->p1=="home" || $this->p1=="") echo 'class="current_page_item"'; ?>><a href="<?php echo $this->PATH; ?>home"> Homepage </a></li>
-						<li <?php if ($this->p1 =="github"){echo 'class="current_page_item"';} ?>><a href="<?php echo $this->PATH ?>github" > GitHub </a></li>
-                        <li <?php if ($this->p1 =="java"){echo 'class="current_page_item"';} ?>> <a href="<?php echo $this->PATH ?>java" > Java </a></li>
-                        <li <?php if ($this->p1 =="android"){echo 'class="current_page_item"';} ?>><a href="<?php echo $this->PATH ?>android" > Android </a></li>
-                        <li <?php if ($this->p1 =="links"){echo 'class="current_page_item"';} ?>><a href="<?php echo $this->PATH ?>links" > My Links </a></li>
-                        <li <?php if ($this->p1 =="movies"){echo 'class="current_page_item"';} ?>><a href="<?php echo $this->PATH ?>movies" > My Movies </a></li>
-                        <li <?php if ($this->p1 =="bike"){echo 'class="current_page_item"';} ?>><a href="<?php echo $this->PATH ?>bike" > Bike Tracks </a></li>
+                        <li <?php if ($this->p1=="home" || $this->p1=="") echo 'class="curr_page"'; ?>><a href="<?php echo $this->PATH; ?>home"> Homepage </a></li>
+                        <li <?php if ($this->p1 =="portfolio"){echo 'class="curr_page"';} ?>> <a href="<?php echo $this->PATH ?>portfolio" > Portfolio </a></li>
+                        <li <?php if ($this->p1 =="links"){echo 'class="curr_page"';} ?>><a href="<?php echo $this->PATH ?>links" > Links </a></li>
+                        <li <?php if ($this->p1 =="movies"){echo 'class="curr_page"';} ?>><a href="<?php echo $this->PATH ?>movies" > Movie_DB </a></li>
+                        <li <?php if ($this->p1 =="bike"){echo 'class="curr_page"';} ?>><a href="<?php echo $this->PATH ?>bike" > Bike_Tracks </a></li>
                     </ul>
                 </div>
         </div>
@@ -74,11 +72,7 @@
                         <h2>Categories</h2>
                         <ul>
                             <li><a href="#" onClick="about()">Contact</a></li>
-                            <li><a href="<?php echo $this->PATH ?>java" <?php if ($this->p1 =="java"){echo 'class="current_page_item"';} ?> > Java </a></li>
-                            <li><a href="<?php echo $this->PATH ?>android" <?php if ($this->p1 =="android"){echo 'class="current_page_item"';} ?> > Android </a></li>
-                            <li><a href="<?php echo $this->PATH ?>links" <?php if ($this->p1 =="links"){echo 'class="current_page_item"';} ?> > My Links </a></li>
-                            <li><a href="<?php echo $this->PATH ?>movies" <?php if ($this->p1 =="movies"){echo 'class="current_page_item"';} ?> > My Movies </a></li>
-                            <li><a href="<?php echo $this->PATH ?>bike" <?php if ($this->p1 =="bike"){echo 'class="current_page_item"';} ?> > Bike Tracks </a></li>
+                            <li><a href="<?php echo $this->PATH ?>java" <?php if ($this->p1 =="java"){echo 'class="curr_page"';} ?> > Java </a></li>
                         </ul>
                     </li>
                 </ul>
