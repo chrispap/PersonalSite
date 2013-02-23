@@ -221,11 +221,11 @@ color: #FF0000;
 
 .entry {
     background-color: #F3F3FF;
-	border: 1px solid ;
-	min-height: 300px;
-	text-align:left;
+    border: 1px solid ;
+    min-height: 300px;
+    text-align:left;
     padding: 0 20px;
-	margin: 20px;
+    margin: 20px;
 }
 
 .entry iframe {
@@ -246,12 +246,12 @@ color: #FF0000;
 }
 
 .links {
-	float: right; 
-	clear: right;
-	margin: 4px;
-	padding: 4px 0px;
-	text-align: right;
-	font-weight: bold;
+    float: right;
+    clear: right;
+    margin: 4px;
+    padding: 4px 0px;
+    text-align: right;
+    font-weight: bold;
 }
 
 .links a {
@@ -262,10 +262,10 @@ color: #FF0000;
 }
 
 .links ul {
-	list-style-type: none;
+    list-style-type: none;
 }
 
-	
+
 /* Notepad (my links) */
 .plaisio {
     background-color:#000000;
@@ -546,3 +546,11 @@ color: #FF0000;
     font-size: 0.9em;
 }
 
+#largeImgPanel {
+    text-align: center;
+    visibility: hidden;
+    position: fixed;
+    z-index: 100;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(100,100,100, 0.5);
+}
