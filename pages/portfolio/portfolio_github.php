@@ -14,5 +14,4 @@
     <p> <a href="https://github.com/chrispap/SudokuSolver"> - Επιλυτής SUDOKU με γραφική διεπαφή </a> </p>
     <p> <a href="https://github.com/chrispap/BoolSim"> - Απλός εξομοιωτής κυκλώματος λογικών πυλών </a> </p>
     <p> <a href="https://github.com/chrispap/Subtitles"> - Πρόγραμμα για προβολή υποτίτλων χωρίς video player </a> </p>
-
 </div>

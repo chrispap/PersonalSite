@@ -44,29 +44,39 @@
 <div class="entry">
     <div class="title"><i>RPN Calculator</i>:</div>
 
+    <div class="rightfloat">
+        <img src="<?php echo $this->IMAGE_PATH; ?>RPN.png" border="0" onclick="showImage(this.src);" >
+    </div>
+
+     Αριθμομηχανή πολωνικής σημειογραφίας
+    <i> Σε αντίθεση με τις συνιθεσμένες αριθμομηχανές, πρώτα εισάγουμε τα νούμερα στην στοίβα και μετά επιλέγουμε την πράξη η οποία δρα πάνω στους 2 πιο πρόσφατους τελεστέους </i>
+    
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    
     <div class="links">
-        <img src="<?php echo $this->IMAGE_PATH; ?>RPN.png" border="0" onclick="showImage(this.src);" > <br/>
         <ul>
             <li><a href="<?php echo $this->PUBLIC_PATH; ?>downloads/RPN.jar"> Download this application  <img src="<?php echo $this->IMAGE_PATH; ?>download.png" ></a> </li>
         </ul>
     </div>
-
-    Αριθμομηχανή πολωνικής σημειογραφίας
-    <i> Σε αντίθεση με τις συνιθεσμένες αριθμομηχανές, πρώτα εισάγουμε τα νούμερα στην στοίβα και μετά επιλέγουμε την πράξη η οποία δρα πάνω στους 2 πιο πρόσφατους τελεστέους </i>
 
 </div>
 
 <div class="entry">
     <div class="title"><i>Pacman</i>:</div>
 
+    <div class="rightfloat">
+        <img src="<?php echo $this->IMAGE_PATH; ?>pacman_screenshot.png" border="0" onclick="showImage(this.src);" >
+    </div>
+    
+    Ένα ημιτελές Pacman
+
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    
     <div class="links">
-        <img src="<?php echo $this->IMAGE_PATH; ?>pacman_screenshot.png" border="0" onclick="showImage(this.src);" > <br/>
         <ul>
             <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/Pacman.jar"> Download this application  <img src="<?php echo $this->IMAGE_PATH; ?>download.png" ></a> </li>
         </ul>
     </div>
-
-    Ένα ημιτελές Pacman
 
 </div>
 
@@ -81,21 +91,23 @@
         </ul>
     </div>
 
-        Μία πολύ άχρηστη εφαρμογή.
-
 </div>
 
 <div class="entry">
     <div class="title"><i>Klimaka</i>:</div>
-
+    
+    <div class="rightfloat">
+        <img src="<?php echo $this->IMAGE_PATH; ?>klimax-screenshot.png" border="0" onclick="showImage(this.src);" >
+    </div>
+    
+    Εφαρμογή που υπολογίζει το ποσόστο μεγέθυνσης-σμίκρυνσης για την αλλαγή της κλίμακας ενός σχεδίου.
+    
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    
     <div class="links">
-        <img src="<?php echo $this->IMAGE_PATH; ?>klimax-screenshot.png" border="0" onclick="showImage(this.src);" > <br/>
         <ul>
             <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/klimax.jar"> Download this application  <img src="<?php echo $this->IMAGE_PATH; ?>download.png" ></a> <br>
         </ul>
     </div>
 
-    Εφαρμογή που υπολογίζει το ποσόστο μεγέθυνσης-σμίκρυνσης για την αλλαγή της κλίμακας ενός σχεδίου.
-
 </div>
-

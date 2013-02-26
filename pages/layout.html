@@ -54,13 +54,26 @@
                     <h1><a href="<?php echo $this->PATH; ?>home"><span>Chris</span>Papapavlou</a></h1>
                     <p>©</p>
                 </div>
-                <div id="menu">
-                    <ul id="menu">
-                        <li <?php if ($this->p1=="home" || $this->p1=="") echo 'class="curr_page"'; ?>><a href="<?php echo $this->PATH; ?>home"> Homepage </a></li>
-                        <li <?php if ($this->p1 =="portfolio"){echo 'class="curr_page"';} ?>> <a href="<?php echo $this->PATH ?>portfolio" > Portfolio </a></li>
-                        <li <?php if ($this->p1 =="links"){echo 'class="curr_page"';} ?>><a href="<?php echo $this->PATH ?>links" > Links </a></li>
-                        <li <?php if ($this->p1 =="movies"){echo 'class="curr_page"';} ?>><a href="<?php echo $this->PATH ?>movies" > Movie_DB </a></li>
-                        <li <?php if ($this->p1 =="bike"){echo 'class="curr_page"';} ?>><a href="<?php echo $this->PATH ?>bike" > Bike_Tracks </a></li>
+                <div class="menu">
+                    <ul>
+                        <li <?php if ($this->p1=="home" || $this->p1=="") echo 'class="curr_page"'; ?>>
+							<a href="<?php echo $this->PATH; ?>home"> Homepage </a>
+						</li>
+                        <li <?php if ($this->p1 =="portfolio"){echo 'class="curr_page"';} ?>> 	
+							<a href="<?php echo $this->PATH ?>portfolio" > Portfolio </a>
+						
+						</li>
+						<li <?php if ($this->p1 =="links"){echo 'class="curr_page"';} ?>>
+							<a href="<?php echo $this->PATH ?>links" > Links </a>
+						</li>
+						
+                        <!--<li <?php if ($this->p1 =="movies"){echo 'class="curr_page"';} ?>>
+							<a href="<?php echo $this->PATH ?>movies" > Movie_DB </a>
+						</li>-->
+							
+						<li <?php if ($this->p1 =="bike"){echo 'class="curr_page"';} ?>>
+							<a href="<?php echo $this->PATH ?>bike" > Bike_Tracks </a>
+						</li>
                     </ul>
                 </div>
         </div>
@@ -88,7 +101,7 @@
     </div>
 
     <div id="largeImgPanel" onclick="hideMe(this);">
-        <img id="largeImg" style="margin: 0; padding: 0; padding-top:10px;" />
+        <img id="largeImg" style="margin: 0; padding: 0; margin-top:10px; max-height:90%; max-width: 90%; border: 3px solid grey;" />
     </div>
 
 </body>
