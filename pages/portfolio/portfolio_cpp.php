@@ -27,7 +27,7 @@
         
     Προβάλετε υπότιτλους <i> πάνω </i> από ένα online stremaing video.
 
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
     <div class="links">
         <ul>

@@ -1,8 +1,10 @@
 <div id="content">
-    <h1>&nbsp Welcome </h1>
     <div class="entry">
-        <div class="title">
-			...
-        </div>
+        <div class="title"> Welcome </div>
+        
+        <a href ="/portfolio" > Εδώ </a> θα βρείτε μερικά προγράμματα μου.
+        
+        <br/><br/><br/><br/><br/><br/><br/><br/>
+
     </div>
 </div>

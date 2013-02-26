@@ -5,14 +5,12 @@
 <div class="entry">
     <div class="title">Kryptolexo:</div>
 
-    <img src="http://img.photobucket.com/albums/v83/tetap/menu.png" border="0" onclick="showImage(this.src);" alt="Photobucket">
-    <img src="http://img.photobucket.com/albums/v83/tetap/screenshot2.png" border="0" onclick="showImage(this.src);" alt="Photobucket">
-    <img src="<?php echo $this->IMAGE_PATH; ?>htccomp.jpg" border="0" onclick="showImage(this.src);" alt="HTC Competition">
-
     <div class="rightfloat">
-        <a href="http://market.android.com/details?id=chris.kryptolexa"> <img src="http://www.android.com/images/brand/45_avail_market_logo2.png" alt="Available in Android Market" /> </a>
-        <br/>
-        <img src="<?php echo $this->IMAGE_PATH; ?>kryptolexa-QRlink.png" border="0" alt="Photobucket">
+        <img src="<?php echo $this->IMAGE_PATH; ?>kryptolexo-screenshot1.jpg" border="0" onclick="showImage(this.src);" >
+        <img src="<?php echo $this->IMAGE_PATH; ?>kryptolexo-screenshot2.png" border="0" onclick="showImage(this.src);" >
+        <img src="<?php echo $this->IMAGE_PATH; ?>kryptolexo-screenshot3.jpg" border="0" onclick="showImage(this.src);" >
+        <img src="<?php echo $this->IMAGE_PATH; ?>kryptolexo-screenshot4.png" border="0" onclick="showImage(this.src);" >
+
     </div>
 
 	<p class=MsoNormal>Το γνωστό παιχνίδι <i style='mso-bidi-font-style:normal'>κρυπτόλεξο</i>
@@ -24,6 +22,15 @@
 	διοργανώθηκε από την <span lang=EN-US style='mso-ansi-language:EN-US'>HTC</span>
 	κερδίζωντας την 2<sup>η</sup> θέση στην κατηγορία παιχνίδια.</p>
 
+    <br/><br/><br/><br/><br/><br/>
+    
+    <div class="links" >
+        <ul>
+            <li><a href="http://market.android.com/details?id=chris.kryptolexa"> <img src="http://www.android.com/images/brand/45_avail_market_logo2.png" alt="Available in Android Market" /> </a></li>
+            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/Kryptolexo-manual.pdf"> Εγχειρίδιο χρήσης <img src="<?php echo $this->IMAGE_PATH; ?>download.png" ></a> </li>
+            <li><img src="<?php echo $this->IMAGE_PATH; ?>kryptolexa-QRlink.png" border="0" alt="Photobucket"></li>
+    </div>
+    
 </div>
 
 <div class="entry">
