@@ -9,7 +9,7 @@ $this->mySqlConnect();
 $this->authorized = isset($_SESSION['username']);
 $categoryActive = $this->p2;
 
-if (/*$authorized &&*/ $_POST['newLinkRequest'] == 'true' ) {
+if ($this->authorized && $_POST['newLinkRequest'] == 'true' ) {
     $sql = 'INSERT INTO links (id, text, link, category) VALUES (NULL, "'.$_POST['newLinkText'].'", "'.$_POST['newLinkHref'].'", "'.$_POST['newLinkCategory'].'")';
     mysql_query($sql, $this->con);
 }
@@ -29,7 +29,7 @@ $sql = 'SELECT * FROM categories LEFT JOIN links ON name = category ORDER BY lin
 $links = array();
 $category = "";
 
-if (/*$authorized &&*/ $res = mysql_query($sql, $this->con)) {
+if ($this->authorized && $res = mysql_query($sql, $this->con)) {
     $this->categoryActiveIndex = -1;
     $i = 0;
     while ($row = mysql_fetch_array($res)) {
