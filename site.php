@@ -8,8 +8,8 @@ class Site
     private $localaccess = false;
     private $PATH = "";
     private $FULL_PATH = "";
-	private $PUBLIC_PATH = "";
-	private $IMG_PATH = "";
+    private $PUBLIC_PATH = "";
+    private $IMAGE_PATH = "";
     private $content = "";
     private $title = "";
     private $p1 = "";
@@ -86,16 +86,16 @@ class Site
 
     public function frontController ()
     {
-        $this->PATH = 'http://' . $_SERVER['SERVER_NAME'] . '/';
-		$this->PUBLIC_PATH 	 = $this->PATH . $this->config['paths']['public'];
-		$this->IMAGE_PATH    = $this->PATH . $this->config['paths']['image'];
-		$this->FULL_PATH 	 = $this->PATH;
-		
+        $this->PATH = 'http://' . $_SERVER['HTTP_HOST'] . '/';
+        $this->PUBLIC_PATH   = $this->PATH . $this->config['paths']['public'];
+        $this->IMAGE_PATH    = $this->PATH . $this->config['paths']['image'];
+        $this->FULL_PATH     = $this->PATH;
+
         /** Extract the case parameter from url */
         $this->p1 = isset($_GET["p1"])? $_GET["p1"] : "home";
         $this->p2 = isset($_GET["p2"])? $_GET["p2"] : "";
         $this->p3 = isset($_GET["p3"])? $_GET["p3"] : "";
-        
+
         if (strlen($this->p1)) $this->FULL_PATH = $this->FULL_PATH . $this->p1 . '/';
         if (strlen($this->p2)) $this->FULL_PATH = $this->FULL_PATH . $this->p2 . '/';
         if (strlen($this->p3)) $this->FULL_PATH = $this->FULL_PATH . $this->p3 . '/';
