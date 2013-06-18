@@ -1,4 +1,4 @@
-<div id="content">
+<div id="content" style="background: #FFFFFF;" >
     <h1> &nbsp Bike Tracks </h1>
 
     <iframe src="http://www.endomondo.com/embed/workouts?w=qeHeuITIXSg&width=980&height=600" width="970" height="650" frameborder="0" scrolling="no" ></iframe> <br>
