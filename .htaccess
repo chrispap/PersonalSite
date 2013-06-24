@@ -4,8 +4,9 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
 <Files .* >
-	Order Deny,Allow
-	Deny From All
+    Order Deny,Allow
+    Deny From All
+    allow from none
 </Files>
 
-RewriteRule ([^/]+)/?([^/]*)/?(.*)		/index.php?p1=$1&p2=$2&p3=$3 [L]
+RewriteRule ([^/]+)/?([^/]*)/?(.*)      /index.php?p1=$1&p2=$2&p3=$3 [L]
