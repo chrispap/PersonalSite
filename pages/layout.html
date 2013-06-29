@@ -46,7 +46,7 @@
             <?php else: ?>
                  <form class="loginForm" action='<?php echo $this->FULL_PATH; ?>' method="post">
                     <table>
-                    <tr> <td> <i class="icon-signin" style="font-size:1.7em; cursor:pointer;" onClick="$('.loginForm').submit()" ></i> </td> <td> <input type="password" name="username" /> </td> <td> </td> </tr>
+                    <tr> <td> <input type="password" name="username" /> </td>  <td> <i class="icon-signin" style="font-size:1.7em; cursor:pointer;" onClick="$('.loginForm').submit()" ></i> </td> </tr>
                     </table>
                 </form>
 
@@ -61,10 +61,14 @@
                         </li>
                         <li <?php if ($this->p1 =="portfolio"){echo 'class="curr_page"';} ?>>
                             <a href="<?php echo $this->PATH ?>portfolio" > Portfolio </a>
-
                         </li>
+
                         <li <?php if ($this->p1 =="links"){echo 'class="curr_page"';} ?>>
                             <a href="<?php echo $this->PATH ?>links" > Links </a>
+                        </li>
+
+                        <li <?php if ($this->p1 =="photos"){echo 'class="curr_page"';} ?>>
+                            <a href="<?php echo $this->PATH ?>photos" > Photos </a>
                         </li>
 
                         <!--<li <?php if ($this->p1 =="movies"){echo 'class="curr_page"';} ?>>
@@ -84,7 +88,14 @@
         </div>
 
         <div id="footer">
-            Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a> &nbsp - &nbsp Modified by me
+            {
+            <i class="icon-ok"></i>
+                DESIGNED BY:  <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>
+            <i class="icon-ok"></i>
+                MODIFIED BY:  ME
+            <i class="icon-ok"></i>
+                USES:  <a href="http://fortawesome.github.io/Font-Awesome/">  Font Awesome</a> collection of icons
+            }
         </div>
 
     </div>

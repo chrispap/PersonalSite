@@ -26,7 +26,7 @@
     <div class="links" >
         <ul>
             <li><a href="https://play.google.com/store/apps/details?id=chris.kryptolexa"><img alt="Get it on Google Play" src="https://developer.android.com/images/brand/el_generic_rgb_wo_45.png" /></a></li>
-            <li> <a href="http://kryptolexa.papapaulou.gr/home"> Ιστότοπος Εφαρμογής </a> </li>
+            <li> <a target="_blank" href="http://kryptolexa.papapaulou.gr/home"> Ιστότοπος Εφαρμογής </a> <i class="icon-external-link"></i> </li>
     </div>
 
 </div>
