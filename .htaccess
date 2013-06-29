@@ -3,10 +3,12 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-<Files .* >
+<Files .*>
     Order Deny,Allow
     Deny From All
     allow from none
 </Files>
+
+Options -Indexes
 
 RewriteRule ([^/]+)/?([^/]*)/?(.*)      /index.php?p1=$1&p2=$2&p3=$3 [L]

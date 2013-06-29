@@ -2,7 +2,7 @@
     <div class="title">
         <a href="https://github.com/chrispap/">
             My GitHub page
-            <img src="<?php echo $this->IMAGE_PATH; ?>github.png" >
+            <i class="icon-github"></i>
         </a>
     </div>
 </h1>

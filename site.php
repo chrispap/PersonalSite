@@ -36,7 +36,7 @@ class Site
             }
 
             mysql_set_charset("utf8",$this->con);
-            mysql_select_db("chris", $this->con);
+            mysql_select_db($this->config['mysql']['db'], $this->con);
         }
     }
 
@@ -53,7 +53,7 @@ class Site
         $SERVER_PUBLIC_IP = strip_tags( $SERVER_PUBLIC_IP );
         $this->localaccess = $SERVER_PUBLIC_IP == $CLIENT_PUBLIC_IP ? true: false;
 
-        /** LOGED_OUT -> LOGIN ( ATTEMT TO LOGIN ) */
+        /** LOGED_OUT -> LOGIN ( ATTEMPT TO LOGIN ) */
         if ( !isset($_SESSION['username']) && isset($_POST['username'])) {
             $this->mysqlConnect();
 

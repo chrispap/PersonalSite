@@ -13,8 +13,8 @@ body {
     padding: 0;
     background: #787878;
     text-align: justify;
-    font-family: "Helvetica";
-    font-size: 11px;
+    font-family: "Trebuchet MS" Helvetica;
+    font-size: 11.5px;
     color: #414141;
 }
 
@@ -41,6 +41,12 @@ a {
     color: #20a3da;
 }
 
+a > i {
+    color: #505050;
+    font-size: 1.3em;
+    margin-left: 5px;
+}
+
 a:hover {
     border-bottom: none;
 }
@@ -60,7 +66,7 @@ img.right {
 }
 
 #header {
-    width: 1000px;
+    width: 870px;
     margin: 0 auto;
     height: 100px;
     background-color:#ffffff;
@@ -166,9 +172,9 @@ img.right {
 
 /* Page */
 #page {
-    width: 990px;
+    width: 860px;
     margin: 5px auto;
-    padding: 20px 5px;
+    padding: 10px 5px;
     background: #FFFFFF;
 }
 
@@ -176,7 +182,7 @@ img.right {
 /* Content */
 #content {
     float: left;
-    width: 978px;
+    width: 850px;
     margin-left: 5px;
     // border: 1px solid #20A3DA;
     background-color: rgb(228, 228, 228);
@@ -291,8 +297,8 @@ img.right {
 }
 
 .notepad {
-    max-width: 500px;
-    padding: 65px 100px 10px 70px;
+    max-width: 660px;
+    padding: 65px 265px 10px 70px;
     margin: 10px;
     background-color: #F3F3FF;
     background-image: url(images/notepad.png);
@@ -446,7 +452,7 @@ img.right {
 /* Footer */
 #footer {
     font-size: smaller;
-    width: 960px;
+    width: 830px;
     margin: 0px auto;
     padding: 5px 20px;
     background-color: #FFFFFF;

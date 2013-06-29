@@ -53,10 +53,10 @@
 
     <div class="links">
         <ul>
-            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/AccelerationClient_1.2.apk">  Download .apk for the Android device <img src="<?php echo $this->IMAGE_PATH; ?>download.png" > </a> </li>
-            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/AccelerationServer_1.2.jar"> Download .jar file for the Host PC <img src="<?php echo $this->IMAGE_PATH; ?>download.png" > </a> </li>
-            <li> <a href="https://github.com/chrispap/AccelerationServer" > View on GitHub (server) <img src="<?php echo $this->IMAGE_PATH; ?>github.png" > </a> </li>
-            <li> <a href="https://github.com/chrispap/AccelerationClient" > View on GitHub (client) <img src="<?php echo $this->IMAGE_PATH; ?>github.png" > </a> </li>
+            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/AccelerationClient_1.2.apk">  Download .apk for the Android device <i class="icon-download-alt"></i> </a> </li>
+            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/AccelerationServer_1.2.jar"> Download .jar file for the Host PC <i class="icon-download-alt"></i> </a> </li>
+            <li> <a href="https://github.com/chrispap/AccelerationServer" > View on GitHub (server) <i class="icon-github"></i> </a> </li>
+            <li> <a href="https://github.com/chrispap/AccelerationClient" > View on GitHub (client) <i class="icon-github"></i> </a> </li>
         </ul>
     </div>
 

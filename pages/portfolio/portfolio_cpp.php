@@ -75,10 +75,10 @@
 
     <div class="links">
         <ul>
-            <li> <a href="https://github.com/chrispap/GraphicsProject" > View on GitHub <img src="<?php echo $this->IMAGE_PATH; ?>github.png" > </a> </li>
-            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/3D.zip"> Download this application (Windows)<img src="<?php echo $this->IMAGE_PATH; ?>download.png" > </a> </li>
-            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/Report.pdf"> Report <img src="<?php echo $this->IMAGE_PATH; ?>download.png" > </a> </li>
-            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/Presentation.pdf"> Presentation <img src="<?php echo $this->IMAGE_PATH; ?>download.png" > </a> </li>
+            <li> <a href="https://github.com/chrispap/GraphicsProject" > View on GitHub <i class="icon-github"></i> </a> </li>
+            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/3D.zip"> Download this application (Windows)<i class="icon-download-alt"></i> </a> </li>
+            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/Report.pdf"> Report <i class="icon-download-alt"></i> </a> </li>
+            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/Presentation.pdf"> Presentation <i class="icon-download-alt"></i> </a> </li>
         </ul>
     </div>
 
@@ -95,8 +95,8 @@
 
     <div class="links">
         <ul>
-            <li> <a href="https://github.com/chrispap/Subtitles" > View on GitHub <img src="<?php echo $this->IMAGE_PATH; ?>github.png" > </a> </li>
-            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/Subtitles.zip"> Download this application (Windows)<img src="<?php echo $this->IMAGE_PATH; ?>download.png" > </a> </li>
+            <li> <a href="https://github.com/chrispap/Subtitles" > View on GitHub <i class="icon-github"></i> </a> </li>
+            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/Subtitles.zip"> Download this application (Windows)<i class="icon-download-alt"></i> </a> </li>
         </ul>
     </div>
 

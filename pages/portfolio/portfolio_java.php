@@ -15,9 +15,9 @@
 
     <div class="links">
         <ul>
-            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/SudokuSolver.jar"> Download this application <img src="<?php echo $this->IMAGE_PATH; ?>download.png" > </a> </li>
-            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/puzzles.zip"> Puzzle προς επίλυση <img src="<?php echo $this->IMAGE_PATH; ?>download.png" > </a> </li>
-            <li> <a href="https://github.com/chrispap/SudokuSolver" > View on GitHub <img src="<?php echo $this->IMAGE_PATH; ?>github.png" > </a> </li>
+            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/SudokuSolver.jar"> Download this application <i class="icon-download-alt"></i> </a> </li>
+            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/puzzles.zip"> Puzzle προς επίλυση <i class="icon-download-alt"></i> </a> </li>
+            <li> <a href="https://github.com/chrispap/SudokuSolver" > View on GitHub <i class="icon-github"></i> </a> </li>
         </ul>
     </div>
 
@@ -44,8 +44,8 @@
 
     <div class="links">
         <ul>
-            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/BoolSim.jar"> Download this application <img src="<?php echo $this->IMAGE_PATH; ?>download.png" > </a> </li>
-            <li> <a href="https://github.com/chrispap/BoolSim" > View on GitHub <img src="<?php echo $this->IMAGE_PATH; ?>github.png" > </a> </li>
+            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/BoolSim.jar"> Download this application <i class="icon-download-alt"></i> </a> </li>
+            <li> <a href="https://github.com/chrispap/BoolSim" > View on GitHub <i class="icon-github"></i> </a> </li>
         </ul>
     </div>
 
@@ -60,7 +60,7 @@
 
     <div class="links">
         <ul>
-            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/SynergeioAE.jar"> Download this application  <img src="<?php echo $this->IMAGE_PATH; ?>download.png" ></a> </li>
+            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/SynergeioAE.jar"> Download this application  <i class="icon-download-alt"></i></a> </li>
         </ul>
     </div>
 
@@ -80,7 +80,7 @@
 
     <div class="links">
         <ul>
-            <li><a href="<?php echo $this->PUBLIC_PATH; ?>downloads/RPN.jar"> Download this application  <img src="<?php echo $this->IMAGE_PATH; ?>download.png" ></a> </li>
+            <li><a href="<?php echo $this->PUBLIC_PATH; ?>downloads/RPN.jar"> Download this application  <i class="icon-download-alt"></i></a> </li>
         </ul>
     </div>
 
@@ -99,7 +99,7 @@
 
     <div class="links">
         <ul>
-            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/Pacman.jar"> Download this application  <img src="<?php echo $this->IMAGE_PATH; ?>download.png" ></a> </li>
+            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/Pacman.jar"> Download this application  <i class="icon-download-alt"></i></a> </li>
         </ul>
     </div>
 
@@ -114,8 +114,8 @@
 
     <div class="links">
         <ul>
-            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/GameOfLife1.5.jar"> Download this application  <img src="<?php echo $this->IMAGE_PATH; ?>download.png" > </a>
-            <li> <a href="https://github.com/chrispap/GameOfLife" > View on GitHub <img src="<?php echo $this->IMAGE_PATH; ?>github.png" > </a>
+            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/GameOfLife1.5.jar"> Download this application  <i class="icon-download-alt"></i> </a>
+            <li> <a href="https://github.com/chrispap/GameOfLife" > View on GitHub <i class="icon-github"></i> </a>
         </ul>
     </div>
 
@@ -134,7 +134,7 @@
 
     <div class="links">
         <ul>
-            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/klimax.jar"> Download this application  <img src="<?php echo $this->IMAGE_PATH; ?>download.png" ></a> <br>
+            <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/klimax.jar"> Download this application  <i class="icon-download-alt"></i></a> <br>
         </ul>
     </div>
 

@@ -6,8 +6,9 @@
     <?php echo $this->title ?>
     </title>
     <link rel="shortcut icon" href="<?php echo $this->PUBLIC_PATH; ?>favicon.ico" />
-    <link href="<?php echo $this->PUBLIC_PATH; ?>default.css" rel="stylesheet" type="text/css" media="screen" />
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $this->PUBLIC_PATH; ?>default.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $this->PUBLIC_PATH; ?>font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" />
     <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
     <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
     <script type="text/javascript" src="<?php echo $this->PUBLIC_PATH; ?>javascript.js"></script>
@@ -26,7 +27,7 @@
                         <table>
                         <tr><td>Administrator
                     <?php if($this->localaccess){echo "Local Access";}else{echo "Remote Access";}?> </td> <td>
-                    <input type="submit" value="Αποσύνδεση" id="button"/> </td> </tr>
+                    <i class="icon-signout" style="font-size:1.7em; cursor:pointer;" onClick="$('.loginForm').submit()" ></i> </td> </tr>
                         </table>
                 </form>
 
@@ -37,7 +38,7 @@
                     <tr>
                     <td>Χρήστης:</td>
                     <td> <?php echo $_SESSION['email'];?> </td>
-                    <td> <input type="submit" value="Αποσύνδεση" id="button"/> </td>
+                    <td> <i class="icon-signout" style="font-size:1.7em; cursor:pointer;" onClick="$('.loginForm').submit()" ></i> </td>
                     </tr>
                     </table>
                 </form>
@@ -45,7 +46,7 @@
             <?php else: ?>
                  <form class="loginForm" action='<?php echo $this->FULL_PATH; ?>' method="post">
                     <table>
-                    <tr> <td> Χρήστης: </td> <td> <input type="password" name="username" /> </td> <td> <input type="submit" value="Σύνδεση" id="button"/>  </td> </tr>
+                    <tr> <td> <i class="icon-signin" style="font-size:1.7em; cursor:pointer;" onClick="$('.loginForm').submit()" ></i> </td> <td> <input type="password" name="username" /> </td> <td> </td> </tr>
                     </table>
                 </form>
 

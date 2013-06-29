@@ -19,7 +19,11 @@
 
         <div class="links">
             <ul>
-                <li> <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/papapavlou_cv.pdf">  Download CV <img src="<?php echo $this->IMAGE_PATH; ?>download.png" > </a> </li>
+                <li>
+                    <a href="<?php echo $this->PUBLIC_PATH; ?>downloads/papapavlou_cv.pdf">  Download CV
+                        <i class="icon-download-alt"></i>
+                    </a>
+                </li>
             </ul>
         </div>
 

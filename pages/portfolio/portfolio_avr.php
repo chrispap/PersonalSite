@@ -4,7 +4,7 @@
 
 <div class="entry">
     <div class="title"><i> TKN - (Η διπλωματική μου εργασία) </i>:</div>
-    
+
     <img class="rightfloat" src="<?php echo $this->IMAGE_PATH; ?>TKN.png" border="0" onclick="showImage(this.src);" >
 
     <p>
@@ -29,7 +29,7 @@
 
     <div class="links">
         <ul>
-            <li><a href="https://github.com/chrispap/TKN" > View on GitHub <img src="<?php echo $this->IMAGE_PATH; ?>github.png" > </a> </li>
+            <li><a href="https://github.com/chrispap/TKN" > View on GitHub <i class="icon-github"></i> </a> </li>
         </ul>
     </div>
 

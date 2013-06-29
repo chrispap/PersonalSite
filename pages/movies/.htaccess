@@ -3,3 +3,5 @@ order deny,allow
 deny from all
 allow from none
 </LIMIT>
+
+Options -Indexes
