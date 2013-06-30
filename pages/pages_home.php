@@ -9,14 +9,14 @@
                     I studied at University of Patras, at the Department of Electrical &amp; Computer Engineering. <br/>
                 </p>
                 <p>
-                    I enjoy to programm mostly in the following programming Languages: <br/>
+                    I enjoy to program mostly in the following programming Languages: <br/>
                     &nbsp; C, C++, Java, PHP, Javascript, AVR assembly <br/>
                     under these operating systems: <br/>
                     &nbsp; Linux, Win32, Android, iOS <br/>
                     &nbsp; for: [Desktop|Mobile|Microcontroller|Web|Server] applications. <br/>
                 </p>
                 <p>
-                I am very interested in technology, I like to ride my (motor)bike, drive and travel.
+                I am very interested in all aspects of technology, I like to ride my (motor)bike, drive and travel.
                 </p>
                 <p>That's it :) </p>
 
