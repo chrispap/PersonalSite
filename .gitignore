@@ -1,6 +1,8 @@
 *.local
 *.sql
+log
 downloads
 
 graphProjDoc
 wordpress
+bootstrap
