@@ -31,11 +31,13 @@
 <hr/>
 
         <div class="links"> <ul>
-            <li> <a target="_blank" href="<?php echo $this->PUBLIC_PATH; ?>downloads/papapavlou_cv.pdf">  Download CV [pdf]<i class="icon-download-alt"></i> </a> </li>
+            <li> <a target="_blank" href="<?php echo $this->PUBLIC_PATH; ?>downloads/papapavlou_cv.pdf">  Download CV [English]<i class="icon-download-alt"></i> </a> </li>
+            <li> <a target="_blank" href="<?php echo $this->PUBLIC_PATH; ?>downloads/papapavlou_cv_ell.pdf">  -//- &nbsp  &nbsp &nbsp &nbsp [Greek]<i class="icon-download-alt"></i> </a> </li>
         </ul> </div>
 
 
         <ul class="contact">
+            <li><a target="_blank" href="http://gr.linkedin.com/pub/chris-papapavlou/46/3b8/52/" class="icon icon-linkedin"><span></span></a></li>
             <li><a target="_blank" href="https://www.facebook.com/chris.papapaulou" class="icon icon-facebook"><span></span></a></li>
             <li><a target="_blank" href="https://plus.google.com/109761617335660020591" class="icon icon-google-plus"><span></span></a></li>
             <li><a target="_blank" href="https://twitter.com/ChrisPapapaulou" class="icon icon-twitter"><span>Twitter</span></a></li>

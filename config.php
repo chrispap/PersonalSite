@@ -2,7 +2,7 @@
 
 /**
  * Copy this file to config.php.local
- * and edit the data.
+ * and edit the information.
  */
 return array (
     'mysql' => array (
@@ -13,5 +13,5 @@ return array (
 		'public' => '',
 		'image' => '',
 		),
-	
+
     );

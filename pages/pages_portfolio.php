@@ -1,9 +1,9 @@
 <?php
 if ($this->p2  == "") {
-	$lang = array ("avr", "cpp", "android", "java", );
+    $lang = array ("cpp", "avr", "android", "java", );
 }
 else {
-	$lang = array ($this->p2);
+    $lang = array ($this->p2);
 }
 
 ?>
@@ -11,7 +11,7 @@ else {
 <div id="content">
     <?php
         foreach ($lang as &$l)
-			include("pages/portfolio/portfolio_$l.php");
+            include("pages/portfolio/portfolio_$l.php");
     ?>
 
 </div>
