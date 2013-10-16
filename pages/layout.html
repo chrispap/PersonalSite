@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html"  charset="utf-8" />
     <title>
-    <?php echo $this->title ?>
+    <?php echo $this->pageTitle ?>
     </title>
     <link rel="shortcut icon" href="<?php echo $this->PUBLIC_PATH; ?>favicon.ico" />
     <link rel="stylesheet" type="text/css" href="<?php echo $this->PUBLIC_PATH; ?>default.css" />
@@ -52,39 +52,42 @@
                 </form>
 
             <?php endif; ?>
-                <div id="logo">
-                    <h1><a href="<?php echo $this->PATH; ?>home"><span>Chris</span>Papapavlou</a></h1>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li <?php if ($this->p1=="home" || $this->p1=="") echo 'class="curr_page"'; ?>>
-                            <a href="<?php echo $this->PATH; ?>home"> Homepage </a>
-                        </li>
-                        <li <?php if ($this->p1 =="portfolio"){echo 'class="curr_page"';} ?>>
-                            <a href="<?php echo $this->PATH ?>portfolio" > Portfolio </a>
-                        </li>
 
-                        <li <?php if ($this->p1 =="links"){echo 'class="curr_page"';} ?>>
-                            <a href="<?php echo $this->PATH ?>links" > Links </a>
-                        </li>
+            <div id="logo">
+                <h1><a href="<?php echo $this->PATH; ?>home"><span>Chris</span>Papapavlou</a></h1>
+            </div>
 
-                        <li <?php if ($this->p1 =="photos"){echo 'class="curr_page"';} ?>>
-                            <a href="<?php echo $this->PATH ?>photos" > Photos </a>
-                        </li>
+            <div class="menu">
+                <ul>
+                    <li <?php if ($this->p1=="home" || $this->p1=="") echo 'class="curr_page"'; ?>>
+                        <a href="<?php echo $this->PATH; ?>home"> Homepage </a>
+                    </li>
+                    <li <?php if ($this->p1 =="portfolio"){echo 'class="curr_page"';} ?>>
+                        <a href="<?php echo $this->PATH ?>portfolio" > Portfolio </a>
+                    </li>
 
-                        <!--<li <?php if ($this->p1 =="movies"){echo 'class="curr_page"';} ?>>
-                            <a href="<?php echo $this->PATH ?>movies" > Movie_DB </a>
-                        </li>-->
+                    <li <?php if ($this->p1 =="links"){echo 'class="curr_page"';} ?>>
+                        <a href="<?php echo $this->PATH ?>links" > Links </a>
+                    </li>
 
-                        <li <?php if ($this->p1 =="bike"){echo 'class="curr_page"';} ?>>
-                            <a href="<?php echo $this->PATH ?>bike" > Bike_Tracks </a>
-                        </li>
-                    </ul>
-                </div>
+                    <li <?php if ($this->p1 =="photos"){echo 'class="curr_page"';} ?>>
+                        <a href="<?php echo $this->PATH ?>photos" > Photos </a>
+                    </li>
+
+                    <!--<li <?php if ($this->p1 =="movies"){echo 'class="curr_page"';} ?>>
+                        <a href="<?php echo $this->PATH ?>movies" > Movie_DB </a>
+                    </li>-->
+
+                    <li <?php if ($this->p1 =="bike"){echo 'class="curr_page"';} ?>>
+                        <a href="<?php echo $this->PATH ?>bike" > Bike_Tracks </a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
 
         <div id="page">
-            <?php include($this->content); ?>
+            <?php echo $this->contentCapture; ?>
             <div style="clear: both;">&nbsp;</div>
         </div>
 

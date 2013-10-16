@@ -11,25 +11,25 @@ $categoryActive = $this->p2;
 
 if ($this->authorized && $_POST['newLinkRequest'] == 'true' ) {
     $sql = 'INSERT INTO links (id, text, link, category) VALUES (NULL, "'.$_POST['newLinkText'].'", "'.$_POST['newLinkHref'].'", "'.$_POST['newLinkCategory'].'")';
-    mysql_query($sql, $this->con);
+    mysql_query($sql, $this->link);
 }
 
 else if ($this->authorized && $this->admin && isset($_GET['deleteLink']) ) {
     $sql = "DELETE FROM links WHERE id='" .$_GET['deleteLink']. "'";
-    mysql_query($sql, $this->con);
+    mysql_query($sql, $this->link);
 }
 
 else if ($this->authorized && $_POST['newCategory'] == "true" ) {
     $categoryActive = $_POST['newCategoryName'];
     $sql = 'INSERT INTO categories (name) VALUES ("'.$_POST['newCategoryName'].'")';
-    mysql_query($sql, $this->con);
+    mysql_query($sql, $this->link);
 }
 
 $sql = 'SELECT * FROM categories LEFT JOIN links ON name = category ORDER BY links.category DESC, links.id DESC';
 $links = array();
 $category = "";
 
-if ($this->authorized && $res = mysql_query($sql, $this->con)) {
+if ($this->authorized && $res = mysql_query($sql, $this->link)) {
     $this->categoryActiveIndex = -1;
     $i = 0;
     while ($row = mysql_fetch_array($res)) {
