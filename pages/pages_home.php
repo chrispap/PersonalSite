@@ -1,7 +1,8 @@
 <div id="content">
 
+    <div class="title"> About me </div>
+
     <div class="entry">
-        <div class="title"> About me </div>
 
         <div style="height: 180px;" >
             <div id="typeWriterPar" style="display: none;" >
@@ -40,7 +41,6 @@
             <li><a target="_blank" href="http://gr.linkedin.com/pub/chris-papapavlou/46/3b8/52/" class="icon icon-linkedin"><span></span></a></li>
             <li><a target="_blank" href="https://www.facebook.com/chris.papapaulou" class="icon icon-facebook"><span></span></a></li>
             <li><a target="_blank" href="https://plus.google.com/109761617335660020591" class="icon icon-google-plus"><span></span></a></li>
-            <li><a target="_blank" href="https://twitter.com/ChrisPapapaulou" class="icon icon-twitter"><span>Twitter</span></a></li>
         </ul>
 
     </div>
